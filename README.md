@@ -153,3 +153,9 @@ pip install -r requirements.txt
 ```
 python logistic_regression.py
 ```
+
+--
+
+## 🧠 Author Note
+
+This script is written with learning in mind. Each section contains detailed comments and printed output to guide you through the “what”, “how”, and “why” behind logistic regression in practice.
