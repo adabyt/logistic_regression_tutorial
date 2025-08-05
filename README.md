@@ -1,4 +1,4 @@
-# Logistic Regression on Breast Cancer Dataset 🧬🔍
+# Logistic Regression on Breast Cancer Dataset
 
 This project demonstrates how to implement **logistic regression** using Python and scikit-learn to classify **malignant vs. benign tumours** from the Breast Cancer Wisconsin (Diagnostic) dataset.
 
@@ -6,7 +6,7 @@ It is structured to teach beginners not only how to code logistic regression, bu
 
 ---
 
-## 📌 Project Goals
+## Project Goals
 
 - Learn how logistic regression works for binary classification
 - Apply logistic regression to a real-world medical dataset
@@ -16,7 +16,7 @@ It is structured to teach beginners not only how to code logistic regression, bu
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source**: Built-in dataset from `sklearn.datasets.load_breast_cancer()`  
 **Instances**: 569  
@@ -27,7 +27,7 @@ It is structured to teach beginners not only how to code logistic regression, bu
 
 ---
 
-## 📚 Theoretical Background
+## Theoretical Background
 
 ### What is Logistic Regression?
 
@@ -57,7 +57,7 @@ The Sigmoid Function
 
 ---
 
-## 🧪 Key Steps in the Script
+## Key Steps in the Script
 
 ### 1. **Data Loading**
 - Load the dataset using `load_breast_cancer(as_frame=True)`
@@ -87,7 +87,7 @@ The Sigmoid Function
 
 ---
 
-## 📈 Example Outputs
+## Example Outputs
 
 ### Classification Report
 
@@ -120,7 +120,7 @@ accuracy                           0.98       114
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Install dependencies with:
 
@@ -139,7 +139,7 @@ seaborn==0.13.2
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1.	Clone the repo
 ```
 git clone https://github.com/adabyt/logistic_regression_tutorial.git
@@ -154,8 +154,8 @@ pip install -r requirements.txt
 python logistic_regression.py
 ```
 
---
+---
 
-## 🧠 Author Note
+## Author's Note
 
 This script is written with learning in mind. Each section contains detailed comments and printed output to guide you through the “what”, “how”, and “why” behind logistic regression in practice.
