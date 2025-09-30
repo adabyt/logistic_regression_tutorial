@@ -51,7 +51,7 @@ When you call cancer = load_breast_cancer(as_frame=True):
 - This Bunch object contains:
     - cancer.data: The feature data (what became cancer.frame).
     - cancer.target: The numerical target labels (what became df_cancer['target']).
-    - cancer.target_names: This is the key! It's an array that contains the human-readable names corresponding to the numerical target labels.
+    - cancer.target_names: This is an array that contains the human-readable names corresponding to the numerical target labels.
         - For the Breast Cancer dataset, cancer.target_names is typically ['malignant' 'benign'].
 
 Without as_frame=True (default behavior): 
@@ -270,8 +270,7 @@ model_lr = LogisticRegression(solver='liblinear', random_state=42)
     #  Common practice in tutorials and reproducible research to use the same random_state (like 42 here) across the entire script
 
 # Train the model using the scaled training data
-# The .fit() method finds the best coefficients (weights) for the linear combination
-# that the sigmoid function will then use to predict probabilities.
+# The .fit() method finds the best coefficients (weights) for the linear combination that the sigmoid function will then use to predict probabilities.
 model_lr.fit(X_train_scaled, y_train)
 
 print("\n--- Logistic Regression Model Trained ---")
